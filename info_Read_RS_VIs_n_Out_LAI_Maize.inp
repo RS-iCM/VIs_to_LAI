@@ -1,0 +1,25 @@
+; Information on RS input files
+1          
+2012
+2          
+113 305 3
+300        
+IA
+4         
+.ndvi.
+.rdvi.
+.mtv1.
+.osav.
+1156 762
+300000       
+12
+       
+; Regression parameters from VIs and LAI
+0.58
+2.12
+0.22
+2.65   
+0.27   
+3.30   
+0.35   
+3.17   
