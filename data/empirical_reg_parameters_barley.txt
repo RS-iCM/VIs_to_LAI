@@ -1,0 +1,9 @@
+# Regression parameters from VIs and LAI
+para_a1: 0.65  # [para_a1*exp(MTVI1*para_b1)]
+para_b1: 2.39  # [para_a1*exp(MTVI1*para_b1)]
+para_a2: 0.06  # [para_a2*exp(NDVI*para_b2)]
+para_b2: 4.77  # [para_a2*exp(NDVI*para_b2)]
+para_a3: 0.08  # [para_a3*exp(OSAVI*para_b3)]
+para_b3: 5.97  # [para_a3*exp(OSAVI*para_b3)]
+para_a4: 0.26  # [para_a4*exp(RDVI*para_b4)]
+para_b4: 4.18  # [para_a4*exp(RDVI*para_b4)]
