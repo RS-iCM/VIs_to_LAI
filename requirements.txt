@@ -1,6 +1,28 @@
-numpy>=1.22
-pandas>=1.5
-matplotlib>=3.5
-scikit-learn>=1.1
-scipy>=1.8
-tqdm>=4.64
+# Core dependencies for VIs_to_LAI_crops
+# These are the minimum required packages for basic functionality
+
+# Scientific computing and data manipulation
+numpy>=1.20.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Machine learning
+scikit-learn>=1.0.0
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# Data I/O and file handling
+h5py>=3.0.0
+pyyaml>=5.4.0
+
+# Visualization
+matplotlib>=3.4.0
+
+# Optional dependencies for 2D/spatial analysis (uncomment if needed)
+# cartopy>=0.20.0  # Required for 2D mapping and shapefile support
+# tqdm>=4.64.0     # Progress bars for long-running operations
+
+# Development dependencies (for Jupyter notebooks)
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
+# notebook>=6.4.0

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  vis-to-lai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vis-to-lai-crops
+    ports:
+      - "8888:8888"  # Jupyter notebook port
+    volumes:
+      # Mount the project directory for live editing
+      - .:/app
+      # Mount outputs directory to persist results
+      - ./outputs:/app/outputs
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
